@@ -1,0 +1,9 @@
+.bootstrap-im-tx{clear:both;position:relative;width:100%;margin:1em 0;padding:1em}
+.bootstrap-im-3p{float:left;width:30%;padding-top:1em}
+.bootstrap-im-3p img{width:100%}
+.clear-both{clear:both}
+.bootstrap-tx-7p{width:65%;float:right;padding:0 0 1em 2em}
+.bootstrap-tl-h2{padding:.5em 0;text-align:center}
+@media screen and (max-width:720px){.bootstrap-tx-7p{width:100%;float:none;padding:1em 0 1em 0}
+.bootstrap-im-3p{float:none;width:100%}
+}
