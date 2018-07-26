@@ -1,0 +1,185 @@
+
+@charset "utf-8";
+#icsDialog {
+    font-size: 14px;
+}
+#icsDialog ul {
+    list-style: none outside none;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+#icsDialog li {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/*
+#icsHeader {
+    color: #000000;
+    float: none;
+    font-size: 18px;
+    padding: 10px 0 0 10px;
+    width: auto;
+}*/
+#icsContactHeader{float: none; width: auto; background:url(../images/ics/ics_header.html) top left no-repeat; color:#404040; font-size:16px; padding: 10px 0px 0px 25px; margin-bottom: 0px 0px 20px 0px; height: 45px;}
+#icsHeader {float: none; width: auto; background:url(../images/ics/ics_header-2.html) top left no-repeat; color:#404040; font-size:16px; padding: 10px 0px 0px 80px; margin-bottom: 0px 0px 20px 0px; height: 45px;}
+#icsOtherReason {
+    border: 1px solid #c6c7cb;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 5px;
+    width: 255px;
+}
+#icsDialog input[type="text"] {
+    border: 1px solid #c6c7cb;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 5px;
+    width: 415px;
+}
+#icsDialog input[type="radio"].small
+{
+	margin-left:10px;
+	margin-right:10px;
+}
+#icsDialog .msglabel
+{
+	margin-left:20px;
+	background:'#BBA9A9';	
+}
+#icsCounter {
+    color: #a7a7a7;
+    margin-left: 25px;
+}
+#icsDoNotShow {
+    color: #666666;
+    float: left;
+    margin-top: 10px;
+    width: 190px;
+}
+.icsDialog .ui-dialog-buttonpane {
+    margin-right: 0;
+}
+.icsDialog {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.icsDialog .ui-dialog-content {
+    overflow: visible !important;
+}
+.icsDialog table {
+    margin: 0 auto;
+    width: 100%;
+}
+.icsDialog td {
+    padding: 0;
+}
+.icsDialog .border {
+   /* background: url("../images/ics/dialog.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+    height: 30px;
+    width: 30px;
+}
+.icsDialog .top-left {
+    background-position: left top;
+}
+.icsDialog .top-center {
+    background-position: center top;
+    padding-top: 3px;
+    width: auto;
+}
+.icsDialog .top-right {
+    background-position: right top;
+    text-align: left;
+}
+.icsDialog .center-left {
+    background-position: left center;
+    height: auto;
+}
+.icsDialog .center-center {
+    background-color: #ffffff;
+}
+.icsDialog .center-center .icsDialog-title {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.icsDialog .center-right {
+    background-position: right center;
+    height: auto;
+}
+.icsDialog .bottom-left {
+    background-position: left bottom;
+}
+.icsDialog .bottom-center {
+    background-position: center bottom;
+    width: auto;
+}
+.icsDialog .bottom-right {
+    background-position: right bottom;
+}
+.icsDialog .ui-widget-content, .icsDialog .ui-dialog-titlebar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+}
+.icsDialog .ul-dialog .ui-dialog-titlebar {
+    background-color: #ffffff;
+    padding: 0;
+}
+.icsDialog {
+    border: medium none;
+}
+.icsDialog .ui-dialog-titlebar-close {
+    background: url("../images/icon-chat-close.html") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    height: 15px;
+    margin-right: 2px;
+	margin-top:1px;
+    padding: 0;
+    right: 35px;
+    top: 14px;
+    width: 15px;
+}
+.icsDialog .top-right .ui-state-hover {
+    background: url("../images/icon-chat-close.html") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.icsDialog .top-right .ui-icon {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.icsDialog .top-right .ui-state-hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+}
+.icsDialog .top-right .ui-state-hover .ui-icon {
+    background-image: none;
+}
+.icsDialog .center-center .ui-dialog-buttonpane {
+    /*text-align: center;*/
+    text-align: right;
+}
+button.ui-button {
+    background: none repeat scroll 0 0 #1964c8 !important;
+    border: medium none !important;
+    border-radius: 0 !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    padding: 0.1em 0.8em !important;
+}
+.ui-button-text-only .ui-button-text { padding: 2px !important; }
+.hide
+{
+	display:none;
+}
+.show
+{
+	display:block;
+}
+#Message
+{
+height: 110px;
+ width: 422px; 
+ margin-left: 19px;
+ }

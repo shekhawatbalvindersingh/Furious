@@ -1,0 +1,175 @@
+@media only screen and (min-width: 780px){
+  .ucVirtualAssistant .virtualAssistant .box {
+    background-color: #00aaf3;
+    /* height: 572px; */
+    height: 585px;
+    margin-top: -40px;
+    padding: 3px;
+    right: 0px;
+    position: fixed;
+    /* top: 48%; */
+    bottom: 2%;
+    width: 426px;
+	z-index:1000;
+}
+#va_trigger{
+    right: 0px;
+   /* height: 43px;*/
+    top: 0px;
+    /* z-index: 1; */
+        width: 426px;
+		
+}
+.ucVirtualAssistant .virtualAssistant {
+    cursor: pointer;
+    margin-top: -77px;
+    position: fixed;
+    right: 11px;
+    top:111%;
+    width: 497px;
+    /* height: 20px; */
+    z-index: 100;
+}
+#va_trigger {
+    padding-top: 1px !important;
+    top: -1px !important;
+    background: linear-gradient(#144E87, #42BCE5 70%)!important;
+	height: 72px;
+}
+}
+#va_trigger h3 {
+    top: -4px;
+    position: absolute;
+    margin-left: 41%;
+    margin-right: 41%;
+	color: white;
+
+}
+
+div.icon-launch {
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+	cursor:pointer;
+	background-size: 100% 100%;
+    background-image: url("../images/rajasthani.png")
+	
+}
+
+div.icon-launch-two {
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+	cursor:pointer;
+	background-size: 100% 100%;
+    background-image: url("../images/teji.png")
+	
+}
+
+.avtr-logo {
+    float: right;
+    display: block !important;
+    margin: 0px 0 0px 0px !important;
+    background: url("../images/rajasthani.png") no-repeat !important;
+    background-size: 66px 69px !important;
+    width: 66px;
+    height: 69px;
+    box-shadow: none !important;
+}
+
+.avtr-logo-two {
+    float: right;
+    display: block !important;
+    margin: 0px 0 0px 0px !important;
+    background: url("../images/teji.png") no-repeat !important;
+    background-size: 66px 69px !important;
+    width: 66px;
+    height: 69px;
+    box-shadow: none !important;
+}
+
+.gov-logo {
+    float: left;
+    display: block !important;
+    margin: 10px 0 10px 1px !important;
+    background: url("../images/gov.png") no-repeat !important;
+    background-size: 49px 58px !important;
+    width: 64px;
+    height: 52px;
+    position: static !important;
+    box-shadow: none !important;
+}
+
+.gov-logo-two {
+    float: left;
+    display: block !important;
+    margin: 10px 0 10px 1px !important;
+    background: url("../images/main_logo.png") no-repeat !important;
+    background-size: 49px 58px !important;
+    width: 64px;
+    height: 52px;
+    position: static !important;
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 779px){
+.ucVirtualAssistant .virtualAssistant {
+    cursor: pointer;
+    /* margin-top: -77px; */
+    /* position: fixed; */
+    right: 11px;
+    top: 111%;
+    width: 497px;
+    /* height: 20px; */
+    z-index: 100;
+}
+
+
+.ucVirtualAssistant .virtualAssistant .box {
+    background-color: #00aaf3;
+    /* height: 572px; */
+    height: 100%;
+    /* margin-top: -40px; */
+    padding: 3px;
+    position: fixed;
+    right: 0px;
+	bottom: 8%;
+    /* top: 48%; */
+    width: 100%;
+	z-index:1000;
+}
+
+#va_trigger {
+    right: 0px;
+    /* height: 43px; */
+    top: 0px;
+    /* z-index: 1; */
+    width: 100%;
+}
+
+
+
+#va_trigger {
+    padding-top: 1px !important;
+    top: -1px !important;
+    background: linear-gradient(#144E87, #42BCE5 70%)!important;
+    height: 12%;
+}
+
+
+ #vaDiv{
+    display: block;
+    height: 85%;
+}
+
+#botframe{
+height : 100%;
+width : 100%;
+}
+}
